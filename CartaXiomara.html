@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cumpleaños de Xiomara</title>
+  <link rel="stylesheet" href="css/card.css" />
+  <style>
+    body {
+      background-color: whitesmoke;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden; 
+    }
+
+    .birthdayCard {
+      max-width: 90%; 
+      max-height: 90vh; 
+    }
+
+    .cardFront {
+      width: 100%;
+      height: 100%;
+    }
+
+    .cardInside {
+      width: 100%;
+      height: 100%;
+    }
+
+    .happy {
+      font-size: 1.2em; 
+    }
+
+    p {
+      font-size: 0.9em; 
+    }
+  </style>
+</head>
+<body>
+  <div class="birthdayCard">
+    <div class="cardFront">
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/6917/6917462.png"
+        class="balloons"
+        alt="balloons"
+      />
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/4392/4392520.png"
+        alt="bdHat"
+        class="bdHat"
+      />
+      <img src="images/HppyBXiomara.png" alt="xiom" class="xiomImg" />
+      <h2 class="happy">Feliz Cumpleaños Xiomara!!</h2>
+    </div>
+    <div class="cardInside">
+      <h3 class="back">Feliz Cumpleaños!</h3>
+      <p>Para ti,</p>
+      <p>
+        ¡Felices 23 años! Espero que en este día la pases de lo mejor
+        disfrutando y divirtiéndote con tu familia, amigos, etc.
+        También suerte y bendiciones en tus exámenes finales, ánimos!! para poder estar orgullosa 
+        de librarte esta carga que te tenía tan agotada, de la misma manera
+        felicidades por terminar otro ciclo más en tu vida profesional, sigue siendo 
+        perseverante, capaz y optimista en tus objetivos. Es lo que más resalta
+        de ti con tu forma de ser, sabes que se puede lograr todo pero la decisión 
+        está en uno mismo, esfuérzate y sé la gran profesional que una vez me 
+        dijiste que querías ser. 
+        Feliz cumpleaños Xiomara, cuídate mucho. 🎉🎂🥂🎈 XAMSC
+      </p>
+    </div>
+  </div>
+  <audio id="birthdayAudio" autoplay loop>
+    <source src="audio/happy-birthday.mp3" type="audio/mpeg" />
+    <source src="audio/happy-birthday.ogg" type="audio/ogg" />
+  </audio>
+</body>
+</html>
